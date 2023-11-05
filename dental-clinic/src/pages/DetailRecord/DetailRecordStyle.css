@@ -1,0 +1,95 @@
+.wrapper-detail-record{
+	width: 100%;
+	background-color: 'rgb(0,0,0,0.5)';
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.inner-detail-record{
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color:#f8f8f8;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	align-items: center;
+}
+.title-detail-record{
+	align-items: center;
+	margin-top: 20px;
+	font-size: large;
+	font-weight: bold;
+}
+.container-detail-record{
+	width: 100%;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+.form-record{
+	display: flex;
+	flex-direction: column;
+	width: 96%;
+	margin: 2%;
+}
+.btn-submit-record{
+	background-color: #4CAF50;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 50%;
+    margin-top: 10px;
+	margin-bottom: 10px;
+}
+.btn-submit-record:hover{
+	background-color: #45a049;
+}
+.container-dd{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding-right: 15px;
+}
+.gender-container{
+	display: flex;
+	width: 25%;
+	align-items: center;
+}
+input[type='radio']{
+	height: 10%;
+	margin: 0px;
+}
+.input-record{
+	width: 98%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    resize: vertical;
+} 
+.title-input-record{
+	font-size: 14px;
+	margin-top: 12px;
+	margin-right: 10px;
+}
+.title-part{
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+.info-readonly{
+	width: 98%;
+	background-color: #f5f5f5;
+	padding: 4px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    resize: vertical;
+}

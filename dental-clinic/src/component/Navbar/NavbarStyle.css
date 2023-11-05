@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(17, 93, 157);
+    align-items: center;
+}
+.container{
+    display: flex;
+    width: 75%;
+    height: 100%;
+    align-items: center;
+    list-style-type: none;
+}
+
+.tab a{
+    text-decoration: none;
+    color:  white;
+}
+.tab{
+   line-height: 50px;
+}
+.tab:hover{
+    background-color: rgb(22, 120, 203);
+    color: white;
+}
+.off{
+    display: none;
+}
